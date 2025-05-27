@@ -84,6 +84,10 @@ public enum SubSkillType {
     SMELTING_SECOND_SMELT,
     SMELTING_UNDERSTANDING_THE_ART(8),
 
+    /* Socializing */
+    SPEECH(1),
+
+
     /* Swords */
     SWORDS_COUNTER_ATTACK(1),
     SWORDS_RUPTURE(4),
