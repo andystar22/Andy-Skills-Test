@@ -404,6 +404,12 @@ Smelting:
             Rank_6: 750
             Rank_7: 850
             Rank_8: 1000
+Socializing:
+    Speech:
+        Standard:
+            Rank_1: 1
+        Retro:
+            Rank_1: 1
 Salvage:
     ScrapCollector:
         Standard:
