@@ -18,6 +18,8 @@ import com.gmail.nossr50.util.sounds.SoundManager;
 import com.gmail.nossr50.util.sounds.SoundType;
 import com.gmail.nossr50.util.text.StringUtils;
 
-public SocializingManager(McMMOPlayer mcMMOPlayer) {
-        super(mcMMOPlayer, PrimarySkillType.SOCIALIZING);
-    }
+public class SocializingManager extends SkillManager {
+        public SocializingManager(McMMOPlayer mcMMOPlayer) {
+                super(mcMMOPlayer, PrimarySkillType.SOCIALIZING);
+            }
+}
