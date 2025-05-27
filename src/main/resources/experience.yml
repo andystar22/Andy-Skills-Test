@@ -106,6 +106,10 @@ Experience_Bars:
         Enable: true
         Color: PURPLE
         BarStyle: SEGMENTED_6
+    Socializing:
+        Enable: true
+        Color: PURPLE
+        BarStyle: SEGMENTED_6
     Swords:
         Enable: true
         Color: BLUE
