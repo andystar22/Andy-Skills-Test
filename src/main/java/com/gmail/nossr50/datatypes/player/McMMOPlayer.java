@@ -208,6 +208,9 @@ public class McMMOPlayer implements Identified {
             case SMELTING:
                 skillManagers.put(primarySkillType, new SmeltingManager(this));
                 break;
+            case SOCIALIZING:
+                skillManagers.put(primarySkillType, new SocializingManager(this));
+                break;
             case SWORDS:
                 skillManagers.put(primarySkillType, new SwordsManager(this));
                 break;
@@ -353,6 +356,10 @@ public class McMMOPlayer implements Identified {
         return (SmeltingManager) skillManagers.get(PrimarySkillType.SMELTING);
     }
 
+    public SocializingManager getSmeltingManager() {
+        return (SocializingManager) skillManagers.get(PrimarySkillType.SOCIALIZING);
+    }
+    
     public SwordsManager getSwordsManager() {
         return (SwordsManager) skillManagers.get(PrimarySkillType.SWORDS);
     }
