@@ -25,6 +25,7 @@ public enum PrimarySkillType {
     REPAIR,
     SALVAGE,
     SMELTING,
+    SOCIALIZING,
     SWORDS,
     TAMING,
     TRIDENTS,
