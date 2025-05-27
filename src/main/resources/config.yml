@@ -229,6 +229,7 @@ Hardcore:
             Tridents: false
             Crossbows: false
             Maces: false
+            Socializing: false
     Vampirism:
         Leech_Percentage: 5.0
         Level_Threshold: 0
@@ -249,6 +250,7 @@ Hardcore:
             Tridents: false
             Crossbows: false
             Maces: false
+            Socializing: false
 
 #
 #  Settings for SMP Mods
@@ -410,6 +412,8 @@ Skills:
         # Ask for a confirmation when a player tries to salvage an enchanted item
         Confirm_Required: true
     Smelting:
+        Level_Cap: 0
+    Socializing:
         Level_Cap: 0
     Swords:
         Enabled_For_PVP: true
