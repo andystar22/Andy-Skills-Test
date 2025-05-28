@@ -154,6 +154,9 @@ commands:
     maces:
         description: Detailed mcMMO skill info
         permission: mcmmo.commands.maces
+    socializing:
+        description: Detailed mcMMO skill info
+        permission: mcmmo.commands.socializing
     mmopower:
         description: Shows skill mastery and power level info
         permission: mcmmo.commands.mmopower
@@ -237,6 +240,7 @@ permissions:
             mcmmo.ability.repair.all: true
             mcmmo.ability.salvage.all: true
             mcmmo.ability.smelting.all: true
+            mcmmo.ability.socializing.all: true
             mcmmo.ability.swords.all: true
             mcmmo.ability.taming.all: true
             mcmmo.ability.tridents.all: true
