@@ -155,8 +155,8 @@ commands:
         description: Detailed mcMMO skill info
         permission: mcmmo.commands.maces
     socializing:
-        description: Detailed mcMMO skill info
-        permission: mcmmo.commands.socializing
+      description: Detailed mcMMO skill info
+      permission: mcmmo.commands.socializing
     mmopower:
         description: Shows skill mastery and power level info
         permission: mcmmo.commands.mmopower
@@ -644,6 +644,17 @@ permissions:
         description: Allows access to the Second Smelt ability
     mcmmo.ability.smelting.vanillaxpboost:
         description: Allows vanilla XP boost from Smelting
+    mcmmo.ability.socializing.*:
+      default: false
+      description: Allows access to all Socializing abilities
+      children:
+        mcmmo.ability.socializing.all: true
+    mcmmo.ability.socializing.all:
+      description: Allows access to all Socializing abilities
+      children:
+        mcmmo.ability.socializing.speech: true
+    mcmmo.ability.socializing.speech:
+      description: E
     mcmmo.ability.swords.*:
         default: false
         description: Allows access to all Swords abilities
@@ -883,6 +894,7 @@ permissions:
             mcmmo.commands.repair: true
             mcmmo.commands.salvage: true
             mcmmo.commands.smelting: true
+            mcmmo.commands.socializing: true
             mcmmo.commands.swords: true
             mcmmo.commands.taming: true
             mcmmo.commands.unarmed: true
@@ -944,6 +956,8 @@ permissions:
         description: Allows access to the herbalism command
     mcmmo.commands.tridents:
         description: Allows access to the tridents command
+    mcmmo.commands.socializing:
+        description: Allows access to the socializing command
     mcmmo.commands.inspect.*:
         default: false
         description: Implies access to all mcmmo.commands.inspect permissions
@@ -1056,6 +1070,7 @@ permissions:
             mcmmo.commands.mctop.repair: true
             mcmmo.commands.mctop.salvage: true
             mcmmo.commands.mctop.smelting: true
+            mcmmo.commands.mctop.socializing: true
             mcmmo.commands.mctop.swords: true
             mcmmo.commands.mctop.taming: true
             mcmmo.commands.mctop.tridents: true
@@ -1089,6 +1104,8 @@ permissions:
         description: Allows access to the mctop command for salvage
     mcmmo.commands.mctop.smelting:
         description: Allows access to the mctop command for smelting
+    mcmmo.commands.mctop.socializing:
+        description: Allows access to the mctop command for socializing
     mcmmo.commands.mctop.swords:
         description: Allows access to the mctop command for swords
     mcmmo.commands.mctop.taming:
@@ -1288,6 +1305,7 @@ permissions:
             mcmmo.commands.skillreset.others.repair: true
             mcmmo.commands.skillreset.others.salvage: true
             mcmmo.commands.skillreset.others.smelting: true
+            mcmmo.commands.skillreset.others.socializing: true
             mcmmo.commands.skillreset.others.swords: true
             mcmmo.commands.skillreset.others.taming: true
             mcmmo.commands.skillreset.others.unarmed: true
@@ -1318,6 +1336,8 @@ permissions:
     mcmmo.commands.skillreset.others.salvage:
         description: Allows access to the skillreset command for salvage for other players
     mcmmo.commands.skillreset.others.smelting:
+        description: Allows access to the skillreset command for smelting for other players
+    mcmmo.commands.skillreset.others.socializing:
         description: Allows access to the skillreset command for smelting for other players
     mcmmo.commands.skillreset.others.swords:
         description: Allows access to the skillreset command for swords for other players
@@ -2255,6 +2275,7 @@ permissions:
             mcmmo.skills.salvage: true
             mcmmo.skills.swords: true
             mcmmo.skills.smelting: true
+            mcmmo.skills.socializing: true
             mcmmo.skills.taming: true
             mcmmo.skills.unarmed: true
             mcmmo.skills.woodcutting: true
@@ -2325,6 +2346,11 @@ permissions:
         children:
             mcmmo.ability.swords.all: true
             mcmmo.commands.swords: true
+    mcmmo.skills.socializing:
+        description: Allows access to the Socializing skill
+        children:
+            mcmmo.ability.socializing.all: true
+            mcmmo.commands.socializing: true
     mcmmo.skills.taming:
         description: Allows access to the Taming skill
         children:
