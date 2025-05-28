@@ -18,7 +18,7 @@ public class SocializingCommand extends SkillCommand {
     private boolean canSpeech;
 
     public SocializingCommand() {
-        super(PrimarySkillType.Socializing);
+        super(PrimarySkillType.SOCIALIZING);
     }
 
     @Override
