@@ -357,7 +357,7 @@ public class McMMOPlayer implements Identified {
         return (SmeltingManager) skillManagers.get(PrimarySkillType.SMELTING);
     }
 
-    public SocializingManager getSmeltingManager() {
+    public SocializingManager getSocializingManager() {
         return (SocializingManager) skillManagers.get(PrimarySkillType.SOCIALIZING);
     }
     
