@@ -7,3 +7,7 @@ import com.gmail.nossr50.util.skills.RankUtils;
 import org.bukkit.entity.LivingEntity;
 import org.bukkit.entity.Player;
 import org.bukkit.inventory.ItemStack;
+
+public class Socializing{
+
+}
