@@ -38,7 +38,7 @@ public class SocializingCommand extends SkillCommand {
 
         if (canSpeech) {
             messages.add(getStatMessage(false, true, SubSkillType.SPEECH,
-                    String.valueOf(1));
+                    String.valueOf(1)));
         }
 
         return messages;
