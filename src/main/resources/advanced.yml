@@ -470,6 +470,11 @@ Skills:
             Rank_8: 5
 
     #
+    #  Settings for Socializing
+    ###
+    Socializing:
+        Speech:
+    #
     #  Settings for Swords
     ###
     Swords:
