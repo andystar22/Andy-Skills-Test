@@ -1,3 +1,5 @@
+package com.gmail.nossr50.skills.socializing;
+
 import com.gmail.nossr50.datatypes.skills.SubSkillType;
 import com.gmail.nossr50.mcMMO;
 import com.gmail.nossr50.util.ItemUtils;
