@@ -451,7 +451,7 @@ class FlatFileDatabaseManagerTest {
             case HERBALISM -> expectedExpHerbalism;
             case MINING -> expectedExpMining;
             case REPAIR -> expectedExpRepair;
-            case SALVAGE, SMELTING -> 0;
+            case SALVAGE, SMELTING, SOCIALIZING -> 0;
             case SWORDS -> expectedExpSwords;
             case TAMING -> expectedExpTaming;
             case TRIDENTS -> expectedExpTridents;
@@ -476,7 +476,7 @@ class FlatFileDatabaseManagerTest {
             case HERBALISM -> expectedLvlHerbalism;
             case MINING -> expectedLvlMining;
             case REPAIR -> expectedLvlRepair;
-            case SALVAGE, SMELTING -> 0;
+            case SALVAGE, SMELTING, SOCIALIZING -> 0;
             case SWORDS -> expectedLvlSwords;
             case TAMING -> expectedLvlTaming;
             case TRIDENTS -> expectedLvlTridents;
